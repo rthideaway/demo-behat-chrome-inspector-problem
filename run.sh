@@ -11,7 +11,6 @@ CURRENT_DIR=$(dirname $0)
 # Wait a bit until chrome is up.
 while ! curl http://127.0.0.1:9222/json/version -s &>/dev/null
 do
-  echo "Try again"
   sleep 0.1
 done
 
