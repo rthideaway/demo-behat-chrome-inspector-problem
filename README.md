@@ -1,6 +1,6 @@
 # Purpose
 Repository demonstrates the problem with a `mousePressed` event not working
-within Chrome inspector.
+within Chrome inspector.\
 More about the issue [here](https://gitlab.com/DMore/chrome-mink-driver/-/issues/110)
 
 # Runner
