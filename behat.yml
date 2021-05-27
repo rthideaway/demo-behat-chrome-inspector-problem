@@ -1,0 +1,18 @@
+default:
+  autoload: [ "%paths.base%/contexts" ]
+  suites:
+    default:
+      paths:
+        - "%paths.base%/features"
+      contexts:
+        - FeatureContext
+  extensions:
+    DMore\ChromeExtension\Behat\ServiceContainer\ChromeExtension: ~
+
+demo:
+  extensions:
+    Behat\MinkExtension:
+      base_url: https://example.com
+      chrome:
+        api_url: "http://127.0.0.1:9222"
+      javascript_session: chrome
