@@ -14,4 +14,4 @@ http://localhost:9222 or chrome://inspect)
 to perform correctly if you are in inspector
 
 # Demo
-There is demonstration video which can be find here [demo.mp4](./demo.mp4)
+There is demonstration video which can be find in the repo's root under [demo.mp4](https://user-images.githubusercontent.com/5792505/119889100-75c64780-bf36-11eb-9e41-25bdb8df25a0.mp4)
